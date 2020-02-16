@@ -37,6 +37,13 @@
 <h3 id="欣赏自己的博客吧"><a href="#欣赏自己的博客吧" class="headerlink" title="欣赏自己的博客吧"></a>欣赏自己的博客吧</h3><p>以上的步骤都完成之后，我们就需要跑起来看看我们博客的效果啦。<br>运行以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo cl </span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
+<h3 id="发表第一篇博文吧"><a href="#发表第一篇博文吧" class="headerlink" title="发表第一篇博文吧"></a>发表第一篇博文吧</h3><p>看到了效果之后，发现博客里有一篇  “hello world”  的博文，那是初始化博客的时候自动创建的。下面我们自己来创建一篇博文吧。<br>运行以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br><span class="line">这里title就是博文的名字，比如“first-page”</span><br></pre></td></tr></table></figure>
+<p>这时，/blog/source/_posts文件夹里就多出了一个  “ first-page.md ”  文件，在文件里输入如下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">### 我的第一篇博文</span><br><span class="line">  欢迎来到我的博客</span><br></pre></td></tr></table></figure>
+<p>保存之后，执行以下命令查看效果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
 
 
 
